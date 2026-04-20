@@ -20,7 +20,7 @@ body:
 
   - type: textarea
     attributes:
-      label: What is the criteria for testers to pass this feature?
+      label: What are the acceptance criteria for testers to pass this feature?
       description: |
         A clear and concise description of all acceptance criteria in checkbox-list format.
         The more details you can provide, the better.
