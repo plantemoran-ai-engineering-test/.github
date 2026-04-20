@@ -1,0 +1,28 @@
+{
+  "name": "github",
+  "displayName": "Default (root) GitHub project (Test)",
+  "description": "Default (root) GitHub project for the test org",
+  "author": {
+    "name": "Michael Obrycki"
+  },
+  "contributors": [],
+  "license": "UNLICENSED",
+  "private": true,
+  "homepage": "https://github.com/orgs/plantemoran-ai-engineering-test/.github#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orgs/plantemoran-ai-engineering-test/.github.git"
+  },
+  "bugs": {
+    "url": "https://github.com/orgs/plantemoran-ai-engineering-test/.github/issues"
+  },
+  "scripts": {
+    "format": "prettier . --write --log-level log",
+    "format:check": "prettier . --check",
+    "lint": "markdownlint **/*.md"
+  },
+  "devDependencies": {
+    "markdownlint-cli": "^0.42.0",
+    "prettier": "3.3.3"
+  }
+}
